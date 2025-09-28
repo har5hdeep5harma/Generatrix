@@ -78,4 +78,4 @@ Ha, D., Dai, A. M., & Le, Q. V. (2017). [HyperNetworks](https://arxiv.org/abs/16
 
 ## License
 
-This project is licensed under the MIT License – see the LICENSE file for details.
+This project is licensed under the [MIT License](LICENSE).
