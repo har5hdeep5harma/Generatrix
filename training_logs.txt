@@ -1,0 +1,59 @@
+Using device: cuda
+100%|██████████| 170M/170M [00:13<00:00, 12.5MB/s]
+
+Model Summary: 
+Target Network (TargetNet) requires 545,098 parameters.
+Hypernetwork (HyperNet) has 140,131,530 parameters.
+Latent vector 'z' has 64 parameters.
+Total trainable parameters: 140,131,594
+
+Epoch 1/25: 100%|██████████| 391/391 [00:24<00:00, 15.74it/s, loss=1.39]
+Epoch 1 Summary: Train Loss: 1.3870 | Train Acc: 50.48% | Test Acc: 60.99%
+Epoch 2/25: 100%|██████████| 391/391 [00:23<00:00, 16.34it/s, loss=0.952]
+Epoch 2 Summary: Train Loss: 0.9517 | Train Acc: 66.47% | Test Acc: 67.70%
+Epoch 3/25: 100%|██████████| 391/391 [00:23<00:00, 16.58it/s, loss=0.797]
+Epoch 3 Summary: Train Loss: 0.7965 | Train Acc: 71.98% | Test Acc: 68.74%
+Epoch 4/25: 100%|██████████| 391/391 [00:23<00:00, 16.56it/s, loss=0.672]
+Epoch 4 Summary: Train Loss: 0.6723 | Train Acc: 76.46% | Test Acc: 70.42%
+Epoch 5/25: 100%|██████████| 391/391 [00:23<00:00, 16.59it/s, loss=0.563]
+Epoch 5 Summary: Train Loss: 0.5628 | Train Acc: 80.31% | Test Acc: 70.05%
+Epoch 6/25: 100%|██████████| 391/391 [00:23<00:00, 16.46it/s, loss=0.464]
+Epoch 6 Summary: Train Loss: 0.4638 | Train Acc: 83.64% | Test Acc: 70.91%
+Epoch 7/25: 100%|██████████| 391/391 [00:23<00:00, 16.53it/s, loss=0.36]
+Epoch 7 Summary: Train Loss: 0.3601 | Train Acc: 87.23% | Test Acc: 71.36%
+Epoch 8/25: 100%|██████████| 391/391 [00:23<00:00, 16.55it/s, loss=0.282]
+Epoch 8 Summary: Train Loss: 0.2816 | Train Acc: 90.08% | Test Acc: 69.95%
+Epoch 9/25: 100%|██████████| 391/391 [00:23<00:00, 16.47it/s, loss=0.212]
+Epoch 9 Summary: Train Loss: 0.2120 | Train Acc: 92.45% | Test Acc: 70.56%
+Epoch 10/25: 100%|██████████| 391/391 [00:23<00:00, 16.45it/s, loss=0.162]
+Epoch 10 Summary: Train Loss: 0.1624 | Train Acc: 94.37% | Test Acc: 69.47%
+Epoch 11/25: 100%|██████████| 391/391 [00:23<00:00, 16.61it/s, loss=0.14]
+Epoch 11 Summary: Train Loss: 0.1403 | Train Acc: 94.95% | Test Acc: 70.01%
+Epoch 12/25: 100%|██████████| 391/391 [00:23<00:00, 16.85it/s, loss=0.113]
+Epoch 12 Summary: Train Loss: 0.1131 | Train Acc: 95.95% | Test Acc: 69.78%
+Epoch 13/25: 100%|██████████| 391/391 [00:23<00:00, 16.66it/s, loss=0.0953]
+Epoch 13 Summary: Train Loss: 0.0953 | Train Acc: 96.61% | Test Acc: 69.91%
+Epoch 14/25: 100%|██████████| 391/391 [00:23<00:00, 16.63it/s, loss=0.0843]
+Epoch 14 Summary: Train Loss: 0.0843 | Train Acc: 97.13% | Test Acc: 68.73%
+Epoch 15/25: 100%|██████████| 391/391 [00:23<00:00, 16.62it/s, loss=0.0744]
+Epoch 15 Summary: Train Loss: 0.0744 | Train Acc: 97.38% | Test Acc: 69.98%
+Epoch 16/25: 100%|██████████| 391/391 [00:23<00:00, 16.61it/s, loss=0.0699]
+Epoch 16 Summary: Train Loss: 0.0699 | Train Acc: 97.62% | Test Acc: 69.51%
+Epoch 17/25: 100%|██████████| 391/391 [00:23<00:00, 16.61it/s, loss=0.0623]
+Epoch 17 Summary: Train Loss: 0.0623 | Train Acc: 97.88% | Test Acc: 69.95%
+Epoch 18/25: 100%|██████████| 391/391 [00:23<00:00, 16.55it/s, loss=0.0637]
+Epoch 18 Summary: Train Loss: 0.0637 | Train Acc: 97.72% | Test Acc: 69.66%
+Epoch 19/25: 100%|██████████| 391/391 [00:23<00:00, 16.53it/s, loss=0.0599]
+Epoch 19 Summary: Train Loss: 0.0599 | Train Acc: 97.95% | Test Acc: 69.81%
+Epoch 20/25: 100%|██████████| 391/391 [00:23<00:00, 16.61it/s, loss=0.0547]
+Epoch 20 Summary: Train Loss: 0.0547 | Train Acc: 98.25% | Test Acc: 69.71%
+Epoch 21/25: 100%|██████████| 391/391 [00:23<00:00, 16.52it/s, loss=0.0476]
+Epoch 21 Summary: Train Loss: 0.0476 | Train Acc: 98.35% | Test Acc: 68.51%
+Epoch 22/25: 100%|██████████| 391/391 [00:24<00:00, 16.17it/s, loss=0.0494]
+Epoch 22 Summary: Train Loss: 0.0494 | Train Acc: 98.29% | Test Acc: 70.11%
+Epoch 23/25: 100%|██████████| 391/391 [00:24<00:00, 16.11it/s, loss=0.0448]
+Epoch 23 Summary: Train Loss: 0.0448 | Train Acc: 98.47% | Test Acc: 69.53%
+Epoch 24/25: 100%|██████████| 391/391 [00:24<00:00, 16.11it/s, loss=0.0435]
+Epoch 24 Summary: Train Loss: 0.0435 | Train Acc: 98.54% | Test Acc: 69.02%
+Epoch 25/25: 100%|██████████| 391/391 [00:24<00:00, 16.17it/s, loss=0.0423]
+Epoch 25 Summary: Train Loss: 0.0423 | Train Acc: 98.57% | Test Acc: 69.76%
